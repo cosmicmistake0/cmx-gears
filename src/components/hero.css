@@ -1,0 +1,39 @@
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 2rem;
+  background: url(images/hero-image.png);
+  background-size: cover;
+}
+.text-container p {
+  font-family: var(--font-display);
+  color: var(--color-secondary);
+  font-size: var(--font-size-h1);
+}
+.hero-cta button {
+  font-size: 1.5rem;
+  /* background-color: var(--color-accent); */
+  padding: 0.5rem;
+  color: var(--color-background);
+  border: var(--color-accent) solid 2px;
+  background-color: transparent;
+}
+.hero-sports {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+  color: var(--color-accent);
+}
+
+.hero-sports {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 16px;
+}
+
+.hero-sports a {
+  text-decoration: underline;
+}
