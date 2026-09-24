@@ -1,10 +1,19 @@
 .product-grid {
-  justify-content: center;
   display: flex;
-  flex-wrap: wrap;
+  gap: 1rem;
+
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 0.5rem;
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-accent) var(--color-background);
   padding: 1rem;
 }
+
 .product-card {
+  scrollbar-color: var(--color-accent);
+  scroll-snap-align: start;
+  flex-shrink: 0;
   padding: 0.5rem;
   text-align: left;
   justify-content: center;
@@ -12,8 +21,8 @@
   background-color: var(--product-card-bg);
   display: flex;
   flex-direction: column;
-  width: 10rem;
-  height: 16rem;
+  width: 9.5rem;
+  height: 15rem;
   box-shadow: var(--product-card-shadow);
   border-radius: 0.4rem;
   justify-content: start;
@@ -49,7 +58,7 @@
 }
 .product-card-cart {
   border-radius: 50%;
-  width: 1.5rem;
+  width: 1.7rem;
   background-color: var(--color-accent);
   aspect-ratio: 1/1;
   padding: 0.2rem;

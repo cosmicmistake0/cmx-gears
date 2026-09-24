@@ -19,46 +19,101 @@ export function FeaturedProduct() {
               </div>
             </div>
           </article>
-          {/* <article className="product-card">
-            <div className="product-image"></div>
-            <div className="product-info">
-              <h3>CMX Training Shorts</h3>
-              <p>Training</p>
-              <span>₦25,000</span>
-            </div>
-          </article>
           <article className="product-card">
             <div className="product-image"></div>
             <div className="product-info">
-              <h3>CMX Basketball Jersey</h3>
-              <p>Basketball</p>
-              <span>₦32,000</span>
+              <div>
+                <h3>CMX Performance Jersey</h3>
+                <p>Football</p>
+              </div>
+              <div className="price-n-cart">
+                <span>₦35,000</span>
+                <div className="product-card-cart">
+                  <img src="icons/cartplussvg.svg" alt="" />
+                </div>
+              </div>
             </div>
           </article>
+
           <article className="product-card">
             <div className="product-image"></div>
             <div className="product-info">
-              <h3>CMX Sports T-Shirt</h3>
-              <p>Training</p>
-              <span>₦22,000</span>
+              <div>
+                <h3>CMX Training Shirt</h3>
+                <p>Training</p>
+              </div>
+              <div className="price-n-cart">
+                <span>₦25,000</span>
+                <div className="product-card-cart">
+                  <img src="icons/cartplussvg.svg" alt="" />
+                </div>
+              </div>
             </div>
           </article>
+
           <article className="product-card">
             <div className="product-image"></div>
             <div className="product-info">
-              <h3>CMX Sports Hoodie</h3>
-              <p>Training</p>
-              <span>₦38,000</span>
+              <div>
+                <h3>CMX Basketball Shorts</h3>
+                <p>Basketball</p>
+              </div>
+              <div className="price-n-cart">
+                <span>₦28,000</span>
+                <div className="product-card-cart">
+                  <img src="icons/cartplussvg.svg" alt="" />
+                </div>
+              </div>
             </div>
           </article>
+
           <article className="product-card">
             <div className="product-image"></div>
             <div className="product-info">
-              <h3>CMX Football Shorts</h3>
-              <p>Football</p>
-              <span>₦20,000</span>
+              <div>
+                <h3>CMX Sports Shoes</h3>
+                <p>Training</p>
+              </div>
+              <div className="price-n-cart">
+                <span>₦45,000</span>
+                <div className="product-card-cart">
+                  <img src="icons/cartplussvg.svg" alt="" />
+                </div>
+              </div>
             </div>
-          </article> */}
+          </article>
+
+          <article className="product-card">
+            <div className="product-image"></div>
+            <div className="product-info">
+              <div>
+                <h3>CMX Sports Socks</h3>
+                <p>Football</p>
+              </div>
+              <div className="price-n-cart">
+                <span>₦12,000</span>
+                <div className="product-card-cart">
+                  <img src="icons/cartplussvg.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article className="product-card">
+            <div className="product-image"></div>
+            <div className="product-info">
+              <div>
+                <h3>CMX Training Shorts</h3>
+                <p>Training</p>
+              </div>
+              <div className="price-n-cart">
+                <span>₦22,000</span>
+                <div className="product-card-cart">
+                  <img src="icons/cartplussvg.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </article>
         </div>
       </div>
     </>
